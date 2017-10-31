@@ -1,0 +1,11 @@
+Document #4 -- Object Design -- made up of:: Due October 16th, 2013 
+
+1. A title page consisting of the class, semester, Project title, group name, group mambers, date.
+2. Software architecture used
+3. RTM - the first five columns and all other updates
+4. A Category Interaction Diagram - example as per given in class.
+5. Design of each object in the application i.e. the class interface
+6. Updated WSD showing the group name, members and their assigned roll and group coordinator.
+7. Updated Gantt Chart showing allocation of task up to this point in the project.
+8. A dictionary explaing terms and computer jargons
+9. A rational for the objects in the application, software architecture, etc.

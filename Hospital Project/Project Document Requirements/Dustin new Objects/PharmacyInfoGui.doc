@@ -1,0 +1,75 @@
+//Displays doctor view listing paitent under the logged in doctors care
+public class PharmacyInfoGui extends JFrame implements ActionListener
+{
+
+	static Connection cn = null;
+	static Connection cn2 = null;
+	Statement st = null;
+	Statement st2 = null;
+	ResultSet rs = null;
+	ResultSet rs2 = null;
+	
+	//Pharmacy information is displayed
+	PharmacyInfoView()
+	{
+	    //Display pharmacy name top of screen
+		super("Pharmacy"); 
+		setSize(height,width);
+		setVisible(true);
+		setLayout(null);
+        
+        //Displays pharmacy fill prescription		
+		lmain1 = new JLabel("Fill Prescription");
+		lmain1.setBounds(position);
+		add(lmain1);
+	
+		//Displays pharmacy enter new drug		
+		lmain2 = new JLabel("Enter new Drug");
+		lmain2.setBounds(position);
+		add(lmain2);
+		
+    	addActionListener(new signout());
+		addActionListener(new prescription());
+		addActionListener(new newdrug());
+		addActionListener(new back());
+	
+    }
+
+
+//Sign pharmacy out of the view and returns user to main login gui
+public class signout implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			return GuiLayOut;
+		}
+	}
+
+//Option is to fill prescription
+public class prescription implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			
+		}
+	}
+	
+//Option to add new drug
+public class newdrug implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			
+		}
+	}
+	
+//Button redirects back to pharmacy's view
+public class back implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			
+		}
+	}
+
+

@@ -1,0 +1,21 @@
+Public class GUI {
+   private Label lblCount;    // declare component Label
+   private TextField tfCount; // declare component TextField
+   private Button btnCount;   // declare component Button
+   
+   /** Constructor to setup GUI components */
+   public GUIInterface () {
+      setLayout(new GuiLayout());
+         //"this" Frame sets its layout to GuiLayout, which arranges the components
+         //from left-to-right, and flow to next row from top-to-bottom.
+	  setTitle("Super Hospital Systems");  // "this" Frame sets title
+      setSize(800, 600);        // "this" Frame sets initial window size
+      setVisible(true);         // "this" Frame shows
+
+ 
+     
+   }
+
+
+
+}

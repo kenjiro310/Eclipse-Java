@@ -1,0 +1,100 @@
+//Displays doctor view listing paitent under the logged in doctors care
+public class DoctorInfoGui extends JFrame implements ActionListener
+{
+
+	static Connection cn = null;
+	static Connection cn2 = null;
+	Statement st = null;
+	Statement st2 = null;
+	ResultSet rs = null;
+	ResultSet rs2 = null;
+	
+	//Doctors information is displayed
+	DoctorInfoView()
+	{
+	    //Display doctors name top of screen
+		super("Doctor Information"); 
+		setSize(height,width);
+		setVisible(true);
+		setLayout(null);
+        
+        //Displays patients name and room number		
+		lmain = new JLabel("patients name and room from database");
+		lmain.setBounds(440,35,107,15);
+		add(lmain);
+	
+    	addActionListener(new signout());
+		addActionListener(new paitent());
+		addActionListener(new viewrecords());
+		addActionListener(new diagnosis());
+		addActionListener(new condition());
+		addActionListener(new medication());
+		addActionListener(new back());
+	
+    }
+
+
+//Sign doctor out of the view and returns user to main login gui
+public class signout implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			return GuiLayOut;
+		}
+	}
+
+//When paitent's name button is pressed doctor's view is updated with paitents info
+public class paitent implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			
+		}
+	}
+	
+//Patients records are displayed
+public class viewrecords implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			
+		}
+	}
+	
+//Patients current diagnosis are displayed
+public class diagnosis implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			
+		}
+	}
+	
+//Patients current condition is displayed
+public class condition implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			
+		}
+	}
+	
+//Patients current medication is displayed
+public class medication implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			
+		}
+	}
+	
+//Button redirects back to doctor's view
+public class back implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			
+		}
+	}
+
+

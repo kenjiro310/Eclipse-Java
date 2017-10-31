@@ -1,0 +1,7 @@
+Okay soooo. So far I have created a splash screen that opens up a new window automatically
+once the allotted time has elapsed. On that screen there are two buttons which will allow
+the user to either enter or exit the system. When the user press enter the login window will 
+open. I finally figured out how to connect to the database. I created a test database so I
+wouldn't mess up the one already created. But if you enter the username or password the 
+appropriate window will open based on who the user is and the permissions stored in the database. 
+I am confused now on how to incorporate Don and Dustins portion into everything but ill keep working on it.

@@ -1,0 +1,1 @@
+http://www.coderanch.com/t/515566/GUI/java/Eclipse-SWT-Image-JDBC-SQLite

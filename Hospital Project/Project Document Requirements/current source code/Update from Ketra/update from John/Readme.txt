@@ -1,0 +1,1 @@
+Copy sqlite folder to your C:Drive root directory

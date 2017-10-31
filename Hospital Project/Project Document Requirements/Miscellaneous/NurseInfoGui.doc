@@ -1,0 +1,66 @@
+//Displays Nurse view listing paitent assigned to hear
+public class NurseInfoGui extends JFrame implements ActionListener
+{
+
+	static Connection cn = null;
+	static Connection cn2 = null;
+	Statement st = null;
+	Statement st2 = null;
+	ResultSet rs = null;
+	ResultSet rs2 = null;
+	
+	//Nurse information is displayed
+	NurseInfoView()
+	{
+	    //Display nurses station
+		super("Display nurses station name"); 
+		setSize(height,width);
+		setVisible(true);
+		setLayout(null);
+        
+        //Displays patients name and room number		
+		lmain = new JLabel("patients name and room from database");
+		lmain.setBounds(440,35,107,15);
+		add(lmain);
+		
+		addActionListener(new patientselect());
+    	addActionListener(new signout());
+	
+    }
+
+
+//Sign nurse out of the view and returns user to main login gui
+public class signout implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			return GuiLayOut;
+		}
+	}
+
+//When paitent's name button is pressed nurse's view is updated with paitents info
+public class paitentselect implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			
+		}
+	}
+	
+//Patients records info is displayed- Doctor, Diagnosis, Condition, and medication
+public class viewpatient implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			
+		}
+	}
+	
+//Button redirects back to doctor's view
+public class back implements ActionListener
+	{
+		public void actionPerformed(ActionEvent ae)
+		{
+			
+		}
+	}
