@@ -40,10 +40,6 @@ public class MinMaxExample {
 					
 		}
 		
-		for(int i = 0; i < intArray.length; i++) {
-			System.out.println(intArray[i]);
-		}
-		
 		//Call: Method for getting max value will be called getMax()
 		int max = getMax(intArray);
 		System.out.println("Maximum value: " +max);
