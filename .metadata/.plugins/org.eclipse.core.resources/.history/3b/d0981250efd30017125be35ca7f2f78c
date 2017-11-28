@@ -13,7 +13,7 @@ public class MinMaxExample {
 		int[] intArray = new int[num];
 		
 		for(int counter = 0; counter < num; counter++) {
-			System.out.println("Enter the number " + (counter+1));
+			System.out.println("Enter the number" + (counter+1));
 			intArray[counter] = input.nextInt();		
 		}
 		

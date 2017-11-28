@@ -5,19 +5,11 @@ public class MinMaxExample {
 
 	public static void main(String[] args) {
 		//int[] intArray = new int[]{10, 11, 88, 2, 12, 120};
-		int num;
-		
 		Scanner input = new Scanner(System.in);
+		
 		System.out.println("How many numbers will be in the array?");
-		num = input.nextInt();
+		int num = input.nextInt();
 		int[] intArray = new int[num];
-		
-		for(int counter = 0; counter < num; counter++) {
-			System.out.println("Enter the number " + (counter+1));
-			intArray[counter] = input.nextInt();		
-		}
-		
-		input.close();
 		
 		System.out.println(Arrays.toString(intArray));
 		
