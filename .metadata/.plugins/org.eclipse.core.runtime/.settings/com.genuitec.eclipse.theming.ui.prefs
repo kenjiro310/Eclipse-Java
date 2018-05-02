@@ -1,10 +1,12 @@
 applyBackground=false
-approved.defs.file.last.changed.time=1512058756000
+approved.defs.file.last.changed.time=1523293951000
+codemix.dont.show.upsell.until=1468800000
+configurationInstallLocation=/B\:/Program Files (x86)/eclipse/Java/eclipse/
 eclipse.preferences.version=1
 iconcolormode=primary
 includeThemingInOomph=false
-last.download.attempt.time=1518389174015
-lastConfiguration=1.518389166898E12
+last.download.attempt.time=1524707948200
+lastConfiguration=1524707941943
 newinstall=true
 showWelcomeDialog=false
-workbench.theme=Dark Gray
+workbench.theme=Dark Blue
